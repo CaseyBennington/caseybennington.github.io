@@ -14,7 +14,7 @@ theme:
      <p>I'm a kickass developer specializing in Rails and MEAN stacks.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+    <p>&copy; CaseyBennington.com. 2016 Powered by <a href="http://jekyllrb.com">Jekyll</a>.</p>
 
   # Icons
   rss: false
@@ -35,7 +35,7 @@ theme:
   steam:
   tumblr:
   twitter: BenningtonCasey
-  wordpress:
+  wordpress: cbenning@vt.edu
   youtube:
 
   # Scripts
