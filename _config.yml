@@ -10,8 +10,8 @@ theme:
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Web Developer</h1>
-     <p>I'm a kickass developer specializing in Rails and MEAN stacks.</p>
+     <h1>The Solver</h1>
+     <p>I'm a problem solver specializing in RoR and MEAN stacks.</p>
   header_text_feature_image:
   footer_text: >
     <p>&copy; CaseyBennington.com. 2016 Powered by <a href="http://jekyllrb.com">Jekyll</a>.</p>
