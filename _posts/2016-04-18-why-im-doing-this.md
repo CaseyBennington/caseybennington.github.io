@@ -6,13 +6,13 @@ I said I would give more details...here they are. There is a lot to this topic a
 
 Just a few months ago, I was a consultant for the largest professional services firm in the world. I had been doing that work for about 5 years and had gotten enough certifications to my name for it to appear on 2 lines on a business card! Doesn't that sound like an exciting goal???
 
-Two whole lines!!!
+> Two whole lines!!!
 
 At one point that was very important to me. As time went on, I become very dissatisfied with this job/career. It was not fulfilling. Most of my clients didn't seem to care that we were there. It was more for them to say that we were there than the actual work we produced. I wanted to actually affect my clients, to bring real value. Unfortunately for me, I believe this had a lot to do with my clients and projects and was not wholly the fault of the firm or industry. Still, the firm didn't care much about that as long as the client was paying and kept engaging us. I also had a hard time overall with the amount of travel. Though, this more or less affected me after I had already made my big decision. It simply reinforced my thoughts.
 
 With all of this, it became clear to me that I needed to make a change. When reviewing in my head of what I could possibly do, it occurred to me to look at my past and what I had used to try.
 
-That was.... programming.
+> That was.... programming.
 
 When I was a kid, I had taught myself visual basic and tried to learn C++, though that ended badly as any budding developer can attest to. I was discouraged by this difficulty and prospects of a stereotypical programmer and abandoned my interests at the time.
 
