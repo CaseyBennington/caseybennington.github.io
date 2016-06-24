@@ -2,8 +2,6 @@
 layout: post
 title: Alexa Skills Continued
 ---
-June 24th, 2016
-
 The next step in the Alexa project was to edit another sample to further understand the way you can develop for Alexa and to further get experience with their submission process.
 
 We started with this Space Geek fact skill and I modified it to a Euro 2016 fact skill given its perfect timing right in the middle of the current Euros.
@@ -13,4 +11,5 @@ I proceeded with this skill in much the same way as the first. The sample was mu
 So, I am finished with the fact skill and am still awaiting certification.
 
 Check it out, Euro 2016 Fun Facts by Mustang Designs...soon
+
 Stay tuned...

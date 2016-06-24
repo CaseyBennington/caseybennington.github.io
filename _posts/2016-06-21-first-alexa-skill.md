@@ -2,8 +2,6 @@
 layout: post
 title: First Alexa Skill!
 ---
-June 21st, 2016
-
 With the quickly emerging interest in voice enabled technologies, I decided for my 3rd project of the back-end portion of the Full Stack course would be the Alexa project. This looks to be a very interesting project in that its completely different from the rest of the projects and from any project I've yet encountered. Voice technologies are not so much new to me, but yet, they are. Talking to Google or Siri, might be my only interactions with voice so far in my life, unless you also count the constant screaming "Xbox on!" at my TV/Xbox setup...
 
 This project entails making 2 small apps, or "Skills" as Amazon calls them, based on provided samples from the Alexa team. Followed by 1 custom Skill.
@@ -19,4 +17,5 @@ Amazon's feedback system inside the Developer portal was good in that I got a fe
 Either way, I finished that skill, went through one round of submission feedback, and now my first skill is live on Alexa.
 
 Check it out, World War Two Trivia by Mustang Designs.
+
 Stay tuned...
