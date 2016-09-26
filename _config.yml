@@ -3,7 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://CaseyBennington.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme-settings:
   # Meta
   title: Casey Bennington # Your name will go here
   description: "A personal portfolio and blog website" # used by search engines
@@ -11,8 +11,8 @@ theme:
   # Header and footer text
   header_text: >
      <h1>The Solver</h1>
-     <p>I'm a problem solver specializing in RoR and MEAN stacks.</p>
-  header_text_feature_image:
+     <p>I'm a problem solver specializing in the RoR and MEAN stacks.</p>
+  header_text_feature_image: banner.jpg
   footer_text: >
     <p>&copy; CaseyBennington.com. 2016 Powered by <a href="http://jekyllrb.com">Jekyll</a>.</p>
 

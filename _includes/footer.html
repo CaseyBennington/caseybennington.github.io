@@ -1,7 +1,41 @@
+<!-- Scripts -->
+<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/jquery.scrollex.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/jquery.scrolly.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/skel.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/util.js" | prepend: site.baseurl }}"></script>
+<!--[if lte IE 8]><script src="{{ "/js/ie/respond.min.js" | prepend: site.baseurl }}"></script><![endif]-->
 <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
+<!-- Footer -->>
 {% if site.theme.footer_text %}
 <footer class="site-footer">
   <p class="text">{{ site.theme.footer_text }}</p>
+
+
+  <ul class="icons">
+    {% for socloc in site.social %}
+    {% if socloc[1] %}
+    {% if socloc[0] == 'email' %}
+    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-envelope-o"
+           ><span class="label">E-mail</span></a></li>
+    {% else %}
+    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }}"
+           ><span class="label">{{ socloc[0] }}</span></a></li>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+  <ul class="copyright">
+    <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
+    {% if site.first_published %}
+      {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
+      {% if diff contains '-' %}{{ site.first_published }},{% endif %}
+    {% endif %}
+    {{ thisyear }}
+    {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
+    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+    <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
+  </ul>
 </footer>
 {% endif %}
