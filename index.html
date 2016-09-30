@@ -130,16 +130,11 @@ layout: default
     </a>
     {% endif %}
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == 1 %}
-        <a href="{{ site.baseurl }}" class="button">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.baseurl }}/blog/page{{ page }}" class="button">{{ page }}</a>
-      {% endif %}
+    <a href="{{ site.baseurl }}/index.html" class="button">1</a>
+    {% for page in (2..paginator.total_pages) %}
+      <a href="{{ site.baseurl }}/blog/page{{ page }}" class="button">{{ page }}</a>
     {% endfor %}
 
-
-    <!-- "{{ paginator }}" -->
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
       {{ site.theme-settings.str_next }}

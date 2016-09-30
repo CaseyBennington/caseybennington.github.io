@@ -147,7 +147,7 @@ jQuery(document).ready(function($) {
 
 	// Make sure that all clicked links that link to the internal website
 	// don't just reload the page but execute a History.pushState call
-	$(document).delegate('a[href^="/"],a[href^="'+siteUrl+'"]', "click", function(e) {
+	$('.pagination').delegate('a[href^="/"],a[href^="'+siteUrl+'"]', "click", function(e) {
 		e.preventDefault();
 		History.pushState({}, "", this.pathname);
 	});

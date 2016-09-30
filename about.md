@@ -2,8 +2,10 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/color.png"
+feature-img: "img/caseyCircle.png"
 ---
+{:.center}
+![Picture of me]({{ site.baseurl }}/img/caseyCircle.png "Picture of me")
 
 Hey There!
 
