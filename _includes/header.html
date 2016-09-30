@@ -1,30 +1,28 @@
 <!-- Header -->
-<header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %} class="site-header" >
-  <h1><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
+<header id="header"{% if page.layout == 'default' or page.layout == 'post' or page.layout == 'page' %} class="alt"{% endif %} class="site-header" >
+  <h1><a href="{{ site.baseurl }}/index.html">{{ site.theme-settings.title }}</a></h1>
   <nav class="site-nav nav">
-
-
     <ul>
       <li class="special">
         <a href="#menu" class="menuToggle"><span>Menu</span></a>
         <div id="menu">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+            <li><a href="{{ site.baseurl }}/#two">Projects</a></li>
+            <li><a href="{{ site.baseurl }}/#posts">Blog</a></li>
+            {% for page in site.pages %}
+            {% if page.title and page.hide != true %}
+              <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
             {% endfor %}
-            <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
-                   class="icon fa-feed"> RSS Feed</a></li>
+            <!-- <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
+                   class="icon fa-feed"> RSS Feed</a></li> -->
           </ul>
         </div>
       </li>
     </ul>
 
-
-
-		<ul>
+		<!-- <ul>
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
 			<li>
@@ -36,20 +34,5 @@
 			{% endfor %}
 		</ul>
 	</nav>
-
-	{% if site.theme.header_text %}
-  <div class="call-out"
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
-  	<h1 class="site-title">
-			<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
-		</h1>
-		<div class="divider"></div>
-    {{ site.theme.header_text }}
-    <div class="divider"></div>
-    <!-- Social icons from Font Awesome, if enabled -->
-	  <ul>
-	    {% include icons.html %}
-		</ul>
-  </div>
-  {% endif %}
+-->
 </header>

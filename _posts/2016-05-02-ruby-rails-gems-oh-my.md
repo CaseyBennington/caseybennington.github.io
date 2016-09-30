@@ -6,7 +6,7 @@ Soooo, I've been rather busy lately, to say the least. There's this language cal
 
 Yeah, the development world is big and I have plunged myself head first.
 
-Things are going well. I came into the course without having ever learned about ruby and now I've made a working command line application and am now working on a Reddit clone.
+Things are going well. I came into the course without having ever learned about Ruby and now I've made a working command line application and am now working on a Reddit clone.
 
 Ruby and Rails are so vastly different than other frameworks/languages I've encountered in the past. Time will tell what I ultimately think of them. I imagine I'll have more fleshed out opinion at the end of my course.
 

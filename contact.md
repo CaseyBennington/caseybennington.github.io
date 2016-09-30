@@ -12,6 +12,6 @@ I am excited to hear from you. Please use this form to reach out to me and let m
   <input type='hidden' name='redirect_to' value='https://CaseyBennington.github.io/thank-you/' />
   <input type='text' name='name' placeholder='Your Full Name' />
   <input type='email' name='email' placeholder='Your E-mail Address' />
-  <textarea name='message' placeholder='Write your message ...'></textarea>
+  <textarea rows='5' name='message' placeholder='Write your message ...'></textarea>
   <input type='submit' value='Send Message' />
 </form>

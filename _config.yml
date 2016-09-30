@@ -7,40 +7,44 @@ theme-settings:
   # Meta
   title: Casey Bennington # Your name will go here
   description: "A personal portfolio and blog website" # used by search engines
+  owner: Casey Bennington
+  first_published: 2016
+  email: cbenning@vt.edu
 
   # Header and footer text
   header_text: >
-     <h1>The Solver</h1>
+     <h1>Casey Bennington</h1>
      <p>I'm a problem solver specializing in the RoR and MEAN stacks.</p>
   header_text_feature_image: banner.jpg
   footer_text: >
     <p>&copy; CaseyBennington.com. 2016 Powered by <a href="http://jekyllrb.com">Jekyll</a>.</p>
 
   # Icons
-  rss: false
-  email_address: cbenning@vt.edu # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook: casey.bennington
-  flickr:
-  github: CaseyBennington # github profile name, e.g. "madebymunsters"
-  google_plus: +CaseyBennington
-  instagram:
-  linkedin: https://www.linkedin.com/in/caseybennington # Full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: BenningtonCasey
-  wordpress: cbenning@vt.edu
-  youtube:
+  social:
+    rss: false
+    email_address: cbenning@vt.edu # Full email address, e.g. "sam@example.com"
+    # behance:
+    # bitbucket:
+    # dribbble:
+    facebook: casey.bennington
+    # flickr:
+    github: CaseyBennington # github profile name, e.g. "madebymunsters"
+    google_plus: +CaseyBennington
+    # instagram:
+    linkedin: https://www.linkedin.com/in/caseybennington # Full URL
+    # pinterest:
+    # reddit:
+    # soundcloud:
+    # stack_exchange:  # Full URL
+    # steam:
+    # tumblr:
+    twitter: BenningtonCasey
+    wordpress: cbenning@vt.edu
+    # youtube:
 
   # Scripts
   google_analytics: "UA-79355854-1" # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: caseybennington
   katex: true # Enable if using math markup
 
   # Localization strings
@@ -56,7 +60,7 @@ theme-settings:
   google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
 
 # PAGINATION
-paginate: 100
+paginate: 6
 paginate_path: "blog/page:num"
 
 # COLLECTIONS
