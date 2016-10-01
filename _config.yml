@@ -6,7 +6,7 @@ url: "http://CaseyBennington.github.io" # the base hostname & protocol for your 
 theme-settings:
   # Meta
   title: Casey Bennington # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  description: '\<coder\> - one who creates cool stuff' # used by search engines
   owner: Casey Bennington
   first_published: 2016
   email: cbenning@vt.edu
@@ -39,7 +39,7 @@ theme-settings:
     # steam:
     # tumblr:
     twitter: BenningtonCasey
-    wordpress: cbenning@vt.edu
+    # wordpress: cbenning@vt.edu
     # youtube:
 
   # Scripts

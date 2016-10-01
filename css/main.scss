@@ -474,7 +474,7 @@ $baseurl: '{{ site.baseurl }}/img';
 		position: relative;
 
 		> .label {
-			display: none;
+			// display: none;
 		}
 
 		&.major {
@@ -1673,6 +1673,11 @@ $baseurl: '{{ site.baseurl }}/img';
 			.actions {
 				@include vendor('order', '2');
 				width: 30%;
+				margin: auto 0;
+
+				li {
+					padding: 0 0 2em 0;
+				}
 			}
 
 			@include breakpoint(medium) {
@@ -1900,4 +1905,47 @@ $baseurl: '{{ site.baseurl }}/img';
 				background-color: darken(_palette(bg), 8);
 			}
 		}
+	}
+
+	/* Tooltip */
+	// Tooltip container
+	.tooltip {
+		position: relative;
+		display: inline-block;
+	}
+
+	// Tooltip text
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		width: 6em;
+		bottom: -50%;
+		left: -90%;
+		background-color: inherit;
+		color: #fff;
+		text-align: center;
+		border-radius: 6px;
+		border: inherit;
+		font-size: small;
+		line-height: 2em;
+
+		// Position the tooltip text
+		position: absolute;
+		transform: rotate(45deg);
+		z-index: 1;
+	}
+
+	// Show the tooltip text when you mouse over the tooltip container
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
+	}
+
+	.tooltip .tooltiptext::after {
+		content: " ";
+		position: absolute;
+		top: -20%;
+		left: 50%;
+		// margin-left: -2em;
+		border-width: 12em;
+		border: inherit;
+		border-color:  transparent transparent rgba(255,255,255,0.075) transparent;
 	}

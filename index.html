@@ -15,29 +15,31 @@ layout: default
   <section id="one" class="wrapper style1 special">
     <div class="inner">
       <header class="major">
-        <h2>Welcome!<br />
-        I'm a problem solver specializing in the RoR and MEAN stacks.<br />
-        Enjoy your stay</h2>
-        <p>Let me know how I might assist you.<br />
-        See below for examples of my work built with:</p>
+        <h2>Hello there,<br />
+        My name is Casey Bennington and I'm a full stack developer.<br />
+        I utilize web based technologies to solve your problems.<br />
+        </h2>
+        <p>Let me team with you to discover what would really make your business take off.<br />
+          Utilize my experience to uniquely offer perspectives on how the web can your business</p>
+        <p>What can I help you with today?.<br />
+        Below are some examples of what I've built using the following technologies:</p>
       </header>
       <ul class="icons major">
-        <!-- <li><i class="icon major devicon-java-plain style1"><span class="label">Java</span></i></li> -->
-        <li><span class="icon major style1"><i class="devicon-java-plain"></i><span class="label">Java</span></span></li>
-        <li><span class="icon major style2"><i class="devicon-javascript-plain"></i><span class="label">Javascript</span></span></li>
-        <li><span class="icon major style1"><i class="devicon-bootstrap-plain"></i><span class="label">Bootstrap</span></span></li>
-        <li><span class="icon major style2"><i class="devicon-ruby-plain"></i><span class="label">Ruby</span></span></li>
-        <li><span class="icon major style3"><i class="devicon-rails-plain"></i><span class="label">Rails</span></span></li>
-        <li><span class="icon major style1"><i class="devicon-angularjs-plain"></i><span class="label">Angular</span></span></li>
-        <li><span class="icon major style2"><i class="devicon-html5-plain"></i><span class="label">HTML5</span></span></li>
-        <li><span class="icon major style3"><i class="devicon-css3-plain"></i><span class="label">CSS3</span></span></li>
+        <li class="tooltip"><span class="icon major style1"><i class="devicon-java-plain"></i><span class="label tooltiptext">Java</span></span></li>
+        <li class="tooltip"><span class="icon major style2 tooltip"><i class="devicon-javascript-plain"></i><span class="label tooltiptext">Javascript</span></span></li>
+        <li class="tooltip"><span class="icon major style1"><i class="devicon-bootstrap-plain"></i><span class="label tooltiptext">Bootstrap</span></span></li>
+        <li class="tooltip"><span class="icon major style2"><i class="devicon-ruby-plain"></i><span class="label tooltiptext">Ruby</span></span></li>
+        <li class="tooltip"><span class="icon major style3"><i class="devicon-rails-plain"></i><span class="label tooltiptext">Rails</span></span></li>
+        <li class="tooltip"><span class="icon major style1"><i class="devicon-angularjs-plain"></i><span class="label tooltiptext">Angular</span></span></li>
+        <li class="tooltip"><span class="icon major style2"><i class="devicon-html5-plain"></i><span class="label tooltiptext">HTML5</span></span></li>
+        <li class="tooltip"><span class="icon major style3"><i class="devicon-css3-plain"></i><span class="label tooltiptext">CSS3</span></span></li>
       </ul>
     </div>
   </section>
 
 <!-- Two -->
   <section id="two" class="wrapper alt style2">
-    <!-- <h2>My Work</h2> -->
+    <!-- <h2>Projects</h2> -->
     {% for project in site.portfolio limit:3 %}
     <section class="spotlight">
       <div class="image">
@@ -122,7 +124,7 @@ layout: default
     </div>
   </div>
   {% if paginator.total_pages > 1 %}
-  <div class="pagination">
+  <div id="pagination" class="pagination">
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
       <i class="fa fa-chevron-left"></i>
@@ -149,8 +151,11 @@ layout: default
   <section id="cta" class="wrapper style2">
     <div class="inner">
       <header>
-        <h2>Thanks for Visiting!</h2>
-        <p>Feel free to reach out if you'd like to work together.</p>
+        <h3>Thanks for stopping by!</h3>
+        <p>I am <i>currently</i> available. Want to work with me? <i>Sweet</i><br />
+        You can connect with me via this really awesome contact form or via email.
+        Or through one of my various social media accounts, if you are daring enough to go that route.<br />
+        And, if you are in San Diego, you could just try yelling really loudly...</p>
       </header>
       <ul class="actions vertical">
         {% for page in site.pages %}
@@ -162,7 +167,7 @@ layout: default
               </a>
             {% else %}
               <a class="button fit" href="{{ page.url | prepend: site.baseurl }}">
-                {{ page.title }}
+                About
               </a>
             {% endif %}
           </li>
