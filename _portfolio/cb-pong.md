@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CB Pong
-thumbnail-path: "img/cbpong.png"
+thumbnail-path: "img/cb-pong.png"
 short-description: CB Pong a replica of the first computer game.
 
 ---
