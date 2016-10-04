@@ -2,7 +2,7 @@
 layout: post
 title: CB Pong
 thumbnail-path: "img/cb-pong.png"
-short-description: CB Pong is a replica of the first computer game.
+short-description: CB Pong is a replica of the first computer game, Pong.
 
 ---
 
