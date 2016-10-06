@@ -161,7 +161,7 @@ jQuery(document).ready(function($) {
 				// Load the new state's URL via an Ajax Call
 				$.get(State.url, function(data){
 					// Replace the content of the main container (.content)
-					$('#posts').html($(data).find('#posts'));
+					$('#posts').html($(data).find('#posts .inner'));
 
 					// If you're using Google analytics, make sure the pageview is registered!
 					// _gaq.push(['_trackPageview', State.url]);

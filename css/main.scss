@@ -994,6 +994,7 @@ $baseurl: '{{ site.baseurl }}/img';
 			@include vendor('order', '1');
 			border-radius: 0;
 			width: 40%;
+			margin-top: -3em;
 
 			img {
 				border-radius: 0;
@@ -1011,6 +1012,13 @@ $baseurl: '{{ site.baseurl }}/img';
 			@include vendor('order', '2');
 			max-width: 48em;
 			width: 60%;
+			padding-top: 1.5em;
+
+			h2 {
+				font-size: 3em;
+				line-height: 1em;
+				margin-bottom: 0.5em;
+			}
 		}
 
 		&:nth-child(2n) {
@@ -1047,16 +1055,18 @@ $baseurl: '{{ site.baseurl }}/img';
 			}
 
 			.content {
-				@include padding(4em, 3em);
+				// @include padding(1em, 3em, 6em, 3em);
 				max-width: none;
 				text-align: center;
 				width: 100%;
+				padding: 1em 3em 6em 3em;
 			}
 		}
 
 		@include breakpoint(small) {
 			.content {
-				@include padding(3em, 2em);
+				// @include padding(3em, 2em);
+				padding: 1em 2em 6em 2em;
 			}
 		}
 	}
