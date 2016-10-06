@@ -1721,6 +1721,7 @@ $baseurl: '{{ site.baseurl }}/img';
 			.inner {
 				@include vendor('display', 'flex');
 				max-width: 90%;
+				flex-direction: column;
 
 				.actions {
 					@include vendor('order', '2');
