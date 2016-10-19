@@ -8,12 +8,12 @@
         <div id="menu">
           <ul>
             <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-            <li><a href="{{ site.baseurl }}/#two">Projects</a></li>
+            <li><a href="{{ site.baseurl }}/#two">Featured Projects</a></li>
             <li><a href="{{ site.baseurl }}/#posts">Blog</a></li>
             {% for page in site.pages %}
-            {% if page.title and page.hide != true %}
-              <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-            {% endif %}
+              {% if page.title and page.hide != true %}
+                <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              {% endif %}
             {% endfor %}
             <!-- <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
                    class="icon fa-feed"> RSS Feed</a></li> -->

@@ -573,6 +573,53 @@ $baseurl: '{{ site.baseurl }}/img';
 		}
 	}
 
+/* Portfolios */
+
+	.portfolios {
+		padding: 0.75em;
+
+		.overlay {
+			text-align: center;
+		}
+
+		h2 {
+			display: none;
+		}
+
+		img {
+			height: 13em;
+		}
+	}
+
+	.portfolios:hover {
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-o-transition: all 1s ease;
+			-ms-transition: all 1s ease;
+			transition: all 1s ease;
+
+		img {
+			position: relative;
+			opacity: 0.2;
+		}
+
+		.overlay {
+			// background-position: 5%;
+			// background-clip: content-box;
+			background: rgba(0,0,0,0.4);
+		}
+
+		h2 {
+			display: inline;
+			position: absolute;
+			left: 0;
+			top: 33%;
+			bottom: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+
 /* List */
 
 	ol {
@@ -1115,6 +1162,11 @@ $baseurl: '{{ site.baseurl }}/img';
 						color: _palette($p, fg);
 					}
 				}
+			}
+
+		// ID: Three
+			.portfolio-link {
+				text-decoration: underline;
 			}
 
 		// Form

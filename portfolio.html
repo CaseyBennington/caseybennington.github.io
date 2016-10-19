@@ -1,0 +1,26 @@
+---
+layout: default
+title: Portfolio
+hide: true
+---
+
+<!-- One -->
+  <section id="three" class="wrapper style4 special">
+    <div class="inner">
+      <header class="major">
+        <h2>Portfolio Projects</h2>
+      </header>
+      <section class="">
+        {% for project in site.portfolio %}
+          <div class="image portfolios">
+            <a href="{{ project.url | prepend: site.baseurl }}">
+                <div class="overlay">
+                  <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
+                </div>
+                <h2>{{ project.title }}</h2>
+            </a>
+          </div>
+        {% endfor %}
+      </section>
+    </div>
+  </section>

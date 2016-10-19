@@ -135,7 +135,7 @@ Array.prototype.forEach.call(elements, function(element) {
 					initialize: function() { $(this).addClass('inactive'); },
 					terminate:  function() { $(this).removeClass('inactive'); },
 					enter:		  function() { $(this).removeClass('inactive'); },
-					leave: 			function() { $(this).addClass('inactive'); }
+					// leave: 			function() { $(this).addClass('inactive'); }
 				});
 			}
 	});

@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "img/color.png"
+feature-img: ""
 ---
 
 I am excited to hear from you. Please use this form to reach out to me and let me know how I can help you. I will get back to you soon.
