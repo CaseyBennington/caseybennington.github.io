@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Chocolate Store
-thumbnail-path: "img/chocolate-store.png"
-short-description: Casey's Chocolate Store is an example of a basic ecommerce storefront. It is a PHP application with integrated login, admin, shopping cart, and hosted database.
+thumbnail-path: "img/Chocolate-store.png"
+short-description: Casey's Chocolate Store is an example of a basic e-commerce storefront. It is a PHP application with integrated login, admin, shopping cart, and hosted database.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/chocolate-store.png)
+![]({{ site.baseurl }}/img/Chocolate-store.png)
 
 ## Summary
 
-This project was my first foray into making an ecommerce application. I wanted to utilize PHP in order to create a basic user shopping experience that could later be scaled and tailored. This was my first ecommerce application and I definitely learned a great deal from it.
+This project was my first foray into making an ecommerce application. I wanted to utilize PHP in order to create a basic user shopping experience that could later be scaled and tailored. This was my first e-commerce application and I definitely learned a great deal from it.
 
 ## Explanation
 
