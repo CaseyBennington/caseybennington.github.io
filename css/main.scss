@@ -1361,6 +1361,18 @@ $baseurl: '{{ site.baseurl }}/img';
 		}
 	}
 
+/* ID: One */
+
+	@media screen and (max-width: 736px) {
+		.wrapper {
+    	padding-bottom: 1.5em;
+		}
+	}
+
+	#one {
+		padding-bottom: 1.5em;
+	}
+
 /* Page Wrapper + Menu */
 
 	#page-wrapper {

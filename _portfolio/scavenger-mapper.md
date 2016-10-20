@@ -14,7 +14,9 @@ short-description: Scavenger Hunter is a web application you can use to win scav
 This is an application for you to use during scavenger hunts. It is a Google Maps based application.
 This app will allow you to enter your hints/clues street address or coordinate location into the input box and have them placed directly on the map for easy tracking. ~~In the future~~, you ~~will~~ **_are_** even be able to track the distance between the locations and calculate the quickest route by distance.
 
-To begin, simply start entering your locations in the Hints List input box. DO NOT use the '&' symbol for cross streets, use **_'and'_** instead. And most importantly, the more precise you are with your address, the more accurate the marker will be. Good Luck!
+To begin, simply start entering your locations in the Hints List input box. DO NOT use the '&' symbol for cross streets, use **_'and'_** instead. And most importantly, the more precise you are with your address, the more accurate the marker will be.
+
+Good Luck!
 
 ## Explanation
 
