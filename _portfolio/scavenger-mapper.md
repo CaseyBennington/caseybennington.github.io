@@ -2,7 +2,7 @@
 layout: post
 title: Scavenger Hunter
 thumbnail-path: "img/scavenger-mapper.png"
-short-description: Scavenger Hunter is a web application used to win Scavenger Hunts.
+short-description: Scavenger Hunter is a web application you can use to win scavenger hunts.
 
 ---
 
@@ -11,10 +11,10 @@ short-description: Scavenger Hunter is a web application used to win Scavenger H
 
 ## Summary
 
-This is an application for use during scavenger hunts. It is a Google Maps based application.
-This app will allow you to enter your hint/clue street address or coordinate locations into the input box and have them placed on the map for easy tracking. ~~In the future~~, you ~~will~~ **__are__** even be able to track the distance between the locations and calculate the quickest route by distance.
+This is an application for you to use during scavenger hunts. It is a Google Maps based application.
+This app will allow you to enter your hints/clues street address or coordinate location into the input box and have them placed directly on the map for easy tracking. ~~In the future~~, you ~~will~~ **_are_** even be able to track the distance between the locations and calculate the quickest route by distance.
 
-To begin, simply start entering your locations in the Hints List input box. DO NOT use the '&' symbol for cross streets, use **__'and'__** instead. And most importantly, the more precise you are with your address, the more accurate the marker will be. Good Luck!
+To begin, simply start entering your locations in the Hints List input box. DO NOT use the '&' symbol for cross streets, use **_'and'_** instead. And most importantly, the more precise you are with your address, the more accurate the marker will be. Good Luck!
 
 ## Explanation
 
@@ -32,7 +32,7 @@ My first thought was to use the Google Map API as Google Maps was in fact the ap
 I also included functionality to determine the distance between each point and to sum that distance. So would allow the racers to see how far they had to go. I then realized that we often have to make changes to our first plan of attack, mainly the order in which to tackle the locations. So, I made it so the locations in the list could be swapped and the distances would automatically update, allowing the racers to plot the best route.
 In addition to learning how to integrate this API into my application, I also had to contend with usability. Admittedly, I am still working on fine tuning this portion. This point mainly relates to the fact that this application will be used on mobile devices almost exclusively and thus I needed to take into consideration how the user to interact with the application and also, how they would be able to see the map itself.
 
-## Results and ## Conclusion
+## Results and Conclusion
 
 In the end I had to compromise on the usability and readability of the map. I made the map as big as I could with keeping it readable and also keeping it small enough to interact with the other parts of the application without having the user clicking on the wrong thing.
 
