@@ -1373,6 +1373,13 @@ $baseurl: '{{ site.baseurl }}/img';
 		padding-bottom: 1.5em;
 	}
 
+/* Post-content */
+	.post-content {
+		a{
+			text-decoration: underline;
+		}
+	}
+
 /* Page Wrapper + Menu */
 
 	#page-wrapper {

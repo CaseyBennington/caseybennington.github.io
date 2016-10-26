@@ -7,7 +7,7 @@ short-description: Paintball Club is an membership website for a paintball club 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/paintball-website.png)
+[![Demo]({{ site.baseurl }}/img/paintball-website.png)](https://paintball-website.herokuapp.com)
 
 ## Summary
 
