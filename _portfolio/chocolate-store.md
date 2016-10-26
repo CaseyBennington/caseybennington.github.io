@@ -3,7 +3,7 @@ layout: post
 title: Chocolate Store
 thumbnail-path: "img/chocolate-store.png"
 short-description: Casey's Chocolate Store is an example of a basic e-commerce storefront.
-
+date: 11/10/2014
 ---
 
 {:.center}

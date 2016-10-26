@@ -3,7 +3,7 @@ layout: post
 title: Jammies
 thumbnail-path: "img/jammies.png"
 short-description: Jammies a replica of the music playing application Spotify.
-
+date: 22/08/2016
 ---
 
 {:.center}
@@ -33,7 +33,7 @@ This application was a perfect setup to use AngularJS and allowed me the opportu
 
 In almost all cases, setting up data binding requires some amount of coding to bind the view and model together. The way in which Angular approaches two-way binding is pretty cool and intuitive. It saves you from writing considerable amount of boiler-plate code.
 
-The model acts as the single source of truth for all the data in your application. The data binding directives `{{ }}` provided by Angular binds the model to the DOM seamlessly.
+The model acts as the single source of truth for all the data in your application. The data binding directives {% raw %}```{{ }}```{% endraw %} provided by Angular binds the model to the DOM seamlessly.
 
 The beauty of this lies in the simplicity that abstracts the internal complexity!
 

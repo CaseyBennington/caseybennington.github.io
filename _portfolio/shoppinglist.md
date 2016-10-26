@@ -3,7 +3,7 @@ layout: post
 title: Casey's Catalog
 thumbnail-path: "img/shoppinglist.png"
 short-description: Casey's Catalog is a grocery list making application.
-
+date: 02/10/2014
 ---
 
 {:.center}
