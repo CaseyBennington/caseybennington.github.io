@@ -2051,3 +2051,9 @@ $baseurl: '{{ site.baseurl }}/img';
 		border: inherit;
 		border-color:  transparent transparent rgba(255,255,255,0.075) transparent;
 	}
+
+// Adjust ID: Three
+	#three {
+		padding-top: 4em;
+    padding-bottom: 2em;
+	}
