@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hot Or Cold
+title: Hot or Cold
 thumbnail-path: "img/hotorcold.png"
 short-description: Hot or Cold is a simple web app using JavaScript.
 date: 04/02/2014

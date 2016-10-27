@@ -674,7 +674,7 @@ $baseurl: '{{ site.baseurl }}/img';
 				padding: 0;
 
 				li {
-					padding-right: 3.0em;
+					padding: 1em 1em;
 
 					@include breakpoint(small) {
 						padding: 1em 1em !important;
@@ -1363,14 +1363,20 @@ $baseurl: '{{ site.baseurl }}/img';
 
 /* ID: One */
 
-	@media screen and (max-width: 736px) {
-		.wrapper {
-    	padding-bottom: 1.5em;
-		}
-	}
-
 	#one {
-		padding-bottom: 1.5em;
+		padding-bottom: 5em;
+
+		@media screen and (max-width: 736px) {
+			.wrapper {
+				padding-bottom: 5em;
+			}
+		}
+
+		@media screen and (max-width: 980px) {
+			.wrapper {
+				padding-bottom: 5em;
+			}
+		}
 	}
 
 /* Post-content */
@@ -1994,14 +2000,18 @@ $baseurl: '{{ site.baseurl }}/img';
 	.tooltip {
 		position: relative;
 		display: inline-block;
+
+		@media screen and (max-width: 736px) {
+			margin-bottom: 0.5em;
+		}
 	}
 
 	// Tooltip text
 	.tooltip .tooltiptext {
 		visibility: hidden;
 		width: 6em;
-		bottom: -50%;
-		left: -90%;
+		bottom: -45%; //50
+		left: -75%; //90
 		background-color: inherit;
 		color: #fff;
 		text-align: center;
@@ -2014,6 +2024,16 @@ $baseurl: '{{ site.baseurl }}/img';
 		position: absolute;
 		transform: rotate(45deg);
 		z-index: 1;
+
+		@media screen and (max-width: 736px) {
+			bottom: -65%;
+			left: -125%;
+		}
+
+		@media screen and (max-width: 980px) {
+			// bottom: -65%;
+			// left: -125%;
+		}
 	}
 
 	// Show the tooltip text when you mouse over the tooltip container
