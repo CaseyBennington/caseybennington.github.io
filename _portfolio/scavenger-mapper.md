@@ -14,7 +14,7 @@ hide: false
 
 This is an application for use during scavenger hunts. It is a Google Maps based API based application.
 
-This app will allow you to enter your hints/clues, street addresses, or coordinate locations into the input box and have them placed directly on the map for easy tracking. ~~In the future~~, ~~you will be~~ are **now** even be able to track the distances between the locations and calculate the quickest race route.
+This app will allow you to enter your hints/clues, street addresses, or coordinate locations into the input box and have them placed directly on the map for easy tracking. ~~In the future~~, You ~~will be~~ are **now** even be able to track the distances between the locations and calculate the quickest race route.
 
 To begin, simply start entering your locations in the Hints List input box. DO NOT use the ‘&’ symbol for cross streets, use **_‘and’_** instead. And most importantly, the more precise you are with your address, the more accurate the marker will be.
 
