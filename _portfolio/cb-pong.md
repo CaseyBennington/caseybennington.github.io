@@ -36,6 +36,8 @@ To solve these problems and complete this application, I focused on staying with
 
 Collision detection can be accomplished using simple [AABB methodology](http://stackoverflow.com/questions/22512319/what-is-aabb-collision-detection), which ultimately was the direction I went, given that my objects were all rectangular boxes or you could take a more complex approach and use [SAT, or Separating Axis Theorem](http://www.sevenson.com.au/actionscript/sat/), for example.
 
+Additionally, to structure the objects in my code, I used JavaScript's prototype behavior. This allowed for the extensive use of inheritance through my program. To make this more inline with today's coding standards, I decided to refactor my original code into ES6 and utilize the new Classes construct. I must admit that this change gave me the impression that the code was so much cleaner, almost as if we were always supposed to have Classes in JavaScript.
+
 ## Results
 
 Overall, this implementation works well and creates a challenging, and entertaining game, much like the original. The three computer AI speeds offer differing levels of difficult for the user. Users with preferences with regards to input have the option of mouse or keyboard usage.
