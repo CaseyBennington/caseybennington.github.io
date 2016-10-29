@@ -4,6 +4,7 @@ title: Scavenger Hunter
 thumbnail-path: "img/scavenger-mapper.png"
 short-description: Scavenger Hunter is a web application you can use to win scavenger hunts.
 date: 08/03/2015
+hide: false
 ---
 
 {:.center}

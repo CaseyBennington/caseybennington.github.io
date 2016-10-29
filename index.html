@@ -40,7 +40,10 @@ layout: default
 <!-- Two -->
   <section id="two" class="wrapper alt style2">
     <!-- <h2>Projects</h2> -->
-    {% for project in site.portfolio limit:3 %}
+    {% for project in site.portfolio %}
+    {% if project.hide == true %}
+      {% continue %}
+    {% endif %}
     <section class="spotlight">
       <div class="image">
         <a href="{{ project.url | prepend: site.baseurl }}">

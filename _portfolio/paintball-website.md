@@ -3,7 +3,8 @@ layout: post
 title: Paintball Website
 thumbnail-path: "img/paintball-website.png"
 short-description: Paintball Club is an membership website for a paintball club with membership needs and even a Map to find local fields to each member's location.
-date: 11/10/2014
+date: 11/10/2012
+hide: true
 ---
 
 {:.center}

@@ -4,6 +4,7 @@ title: Jammies
 thumbnail-path: "img/jammies.png"
 short-description: Jammies a replica of the music playing application Spotify.
 date: 22/08/2016
+hide: false
 ---
 
 {:.center}

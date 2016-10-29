@@ -4,6 +4,7 @@ title: WWII Quiz App
 thumbnail-path: "img/quiz-app.png"
 short-description: WWII Quiz App is a simple web quiz using JavaScript.
 date: 04/11/2014
+hide: true
 ---
 
 {:.center}
