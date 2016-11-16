@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ruby, Rails, Gems, oh my!
+crosspost_to_medium: true
 ---
 Soooo, I've been rather busy lately, to say the least. There's this language called Ruby, that's specifically made for developers, and this framework called rails with really the same purpose, and these things called gems, and this amazing thing called a terminal that regular people don't even know about, rspec, and git, and this and that and and and...
 

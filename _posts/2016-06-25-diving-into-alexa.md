@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Diving into Alexa
+crosspost_to_medium: true
 ---
 I've now been working on a custom Alexa skill. I am still trying to utilize some of the templates provided by Amazon to configure my skill, but this skill will be doing something that is not offered by one of their standards templates. A much bigger challenge. There is a lot of interactivity in the Alexa code I need to be aware of as I move forward. It's important to keep in mind the request and response objects that Alexa expects as that can be the biggest tripping point in submitting a skill for certification.
 

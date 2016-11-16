@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First Alexa Skill!
+crosspost_to_medium: true
 ---
 With the quickly emerging interest in voice enabled technologies, I decided for my 3rd project of the back-end portion of the Full Stack course would be the Alexa project. This looks to be a very interesting project in that it's completely different from the rest of the projects and from any project I've yet encountered. Voice technologies are not so much new to me, but yet, they are. Talking to Google or Siri, might be my only interactions with voice so far in my life, unless you also count the constant screaming "Xbox on!" at my TV/Xbox setup...
 

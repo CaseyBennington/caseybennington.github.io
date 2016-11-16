@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why I'm Doing This - Part Deuce
+crosspost_to_medium: true
 ---
 Continued...
 

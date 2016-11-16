@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Alexa Skills Continued
+crosspost_to_medium: true
 ---
 The next step in the Alexa project was to edit another sample to further understand the way you can develop for Alexa and to further get experience with their submission process.
 

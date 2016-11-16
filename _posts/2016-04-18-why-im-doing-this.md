@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why I'm Doing This
+crosspost_to_medium: true
 ---
 I said I would give more details...here they are. There is a lot to this topic and in telling it I may skip around a bit as the thoughts come out, bear with me or just treat it like a wonderful puzzle!
 
