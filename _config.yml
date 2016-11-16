@@ -1,8 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://CaseyBennington.github.io" # the base hostname & protocol for your site
-# MEDIUM_INTEGRATION_TOKEN: 25d2c9980643d6141afee9de07b8d0de9da2013901b5cefca6262f45dd888ff9a
-# MEDIUM_USER_ID: 171322253a2c311cae6bcb7d74ac375f904e0e713c9cd64e84ba71a48bab859e7
 
 # THEME-SPECIFIC CONFIGURATION
 theme-settings:
