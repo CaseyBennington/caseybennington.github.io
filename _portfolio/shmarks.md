@@ -8,7 +8,7 @@ hide: false
 ---
 
 {:.center}
-[![Demo]({{ site.baseurl }}/img/shmarks.png)](https://github.com/CaseyBennington/Shmarks)
+[![Demo]({{ site.baseurl }}/img/shmarks.png)](https://quiet-plains-42389.herokuapp.com/)
 
 ## Summary
 
