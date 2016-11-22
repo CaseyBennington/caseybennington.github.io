@@ -46,3 +46,5 @@ The application gave me a great deal of things to learn about and work on, and t
 ## Conclusion
 
 As this project was my second coding creation I am again very proud of it. This project in particular turned out to be very instructive, more of a challenge and even more rewarding as this showed me that I can work with Ruby, Ruby on Rails, HTML, CSS, utilize new gem’s and their API’s, mailers and even learn to work with testing while creating a fully functioning web application.
+
+Click on the picture above to visit the application or visit [here](https://github.com/CaseyBennington/Shmarks) for the code.

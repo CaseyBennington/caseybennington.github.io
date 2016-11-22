@@ -35,3 +35,5 @@ This application was designed very early in my development career, and yet, the 
 ## Conclusion
 
 Even with this application having been created several years ago, it provided a great opportunity to use PHP to develop a database driven web application.
+
+Click on the picture above to visit the application or visit [here](https://github.com/CaseyBennington/Paintball-Website) for the code.

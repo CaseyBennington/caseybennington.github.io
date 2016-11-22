@@ -45,3 +45,5 @@ Overall, this implementation was excellent. The results for the users is a well-
 ## Conclusion
 
 While this project is fairly basic it still provides a great deal of learning for me, as well as a solid platform which could allow me to expand functionality in the future if so desired. Overall, I am pleased with the outcome of this application and the skills that I learned in creating it. As for AngularJS, I feel this has only whet my appetite to further explore how I can use this framework on other projects.
+
+Click on the picture above to visit the application or visit [here](https://github.com/CaseyBennington/jammies) for the code.

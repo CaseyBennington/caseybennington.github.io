@@ -41,3 +41,5 @@ In addition to learning how to integrate this API into my application, I also ha
 In the end I had to compromise on the usability and readability of the map. I made the map as big as I could while keeping it readable but also keeping it small enough to interact with the other parts of the application without having the user clicking on the wrong thing.
 
 The application works great. It eliminates the need for the racers to have to bring a paper map and worrying about the difficulty of having to fold and manipulate the map as you are running from one location to the next. It also eliminates the need to worry about making a mistake when writing a location on the map and not being able to erase that mark and getting confused with it miles down the race. And finally, it allows the team to plot the distance between the locations and identify the shortest route, hopefully ending up as the champs!
+
+Click on the picture above to visit the application or visit [here](https://github.com/CaseyBennington/Scavenger-Mapper) for the code.

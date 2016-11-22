@@ -37,3 +37,5 @@ This application was designed very early in my development career, and yet the d
 This application was created years ago and given more time to work on it, I would change a lot about the design elements. However, I think that as a demo of functionality, the design works. When I first created the application, the email responses that a user would get from the application were stylistically correct, but since porting the application to Heroku (and potentially the time passed since creation), it seems the emails being sent to users no longer allows for correct style formatting. This would need to be addressed in future versions of this project.
 
 I no longer maintain this application but it should be noted there are a number of bugs that exist within the codebase; however, they do not interfere with the core functionality.
+
+Click on the picture above to visit the application or visit [here](https://github.com/CaseyBennington/Chocolate-Store) for the code.

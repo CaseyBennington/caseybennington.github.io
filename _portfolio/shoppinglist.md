@@ -29,3 +29,5 @@ I utilized JavaScript to get the list to behave as described above. Using JavaSc
 ## Results and Conclusion
 
 While this was a simplistic application, it was fun to get to use JavaScript to create UI interactivity for something that has real-world usability.
+
+Click on the picture above to visit the application or visit [here](https://github.com/CaseyBennington/Shopping-List-App) for the code.

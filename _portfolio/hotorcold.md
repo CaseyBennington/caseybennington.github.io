@@ -29,3 +29,5 @@ I utilized jQuery to get this application to present each feedback and its corre
 ## Results and Conclusion
 
 While this was a very simplistic application, it was fun to get to use JavaScript to create UI interactivity for the user, as well as creating a fun, little game.
+
+Click on the picture above to visit the application or visit [here](https://github.com/CaseyBennington/hot-or-cold) for the code.
