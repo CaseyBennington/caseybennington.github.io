@@ -1,5 +1,5 @@
 <!-- Header -->
-<header id="header"{% if page.layout == 'default' or page.layout == 'post' or page.layout == 'page' %} class="alt"{% endif %} class="site-header" >
+<header id="header"{% if page.layout == 'default' or page.layout == 'post' or page.layout == 'page' %} class="alt" {% else %} class="site-header" {% endif %} >
   <h1><a href="{{ site.baseurl }}/index.html">{{ site.theme-settings.title }}</a></h1>
   <nav class="site-nav nav">
     <ul>
@@ -32,7 +32,6 @@
 			</li>
 			{% endif %}
 			{% endfor %}
-		</ul>
+		</ul> -->
 	</nav>
--->
 </header>
