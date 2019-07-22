@@ -17,7 +17,7 @@ theme-settings:
      <p>I'm a problem solver specializing in the RoR and MEAN stacks.</p>
   header_text_feature_image: banner.jpg
   footer_text: >
-    <p>&copy; CaseyBennington.com. 2016 Powered by <a href="http://jekyllrb.com">Jekyll</a>.</p>
+    <p>&copy; CaseyBennington.com. 2016-2019 Powered by <a href="http://jekyllrb.com">Jekyll</a>.</p>
 
   # Icons
   social:
