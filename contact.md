@@ -7,7 +7,7 @@ feature-img: ""
 
 I am excited to hear from you. Please use this form to reach out to me and let me know how I can help you. I will get back to you soon.
 
-<form action="https://getsimpleform.com/messages?form_api_token=8327c4cf704781ce98681b36bcf7db66" method="post">
+<form action="https://getsimpleform.com/messages?form_api_token=b2711a247b3e18776a8b3f334e1626fb" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='https://CaseyBennington.github.io/thank-you/' />
   <input type='text' name='name' placeholder='Your Full Name' />
