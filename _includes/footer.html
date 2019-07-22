@@ -17,7 +17,7 @@
     <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.theme-settings.first_published %}
       {% capture diff %}{{ site.theme-settings.first_published | minus:thisyear }}{% endcapture %}
-      {% if diff contains '-' %}{{ site.theme-settings.first_published }},{% endif %}
+      {% if diff contains '-' %}{{ site.theme-settings.first_published }}-{% endif %}
     {% endif %}
     {{ thisyear }}
     {% if site.owner %}{{ site.theme-settings.owner }}{% else %}{{ site.theme-settings.title }}{% endif %}</li>
