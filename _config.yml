@@ -14,7 +14,7 @@ theme-settings:
   # Header and footer text
   header_text: >
      <h1>Casey Bennington</h1>
-     <p>I'm a problem solver specializing in the RoR and MEAN stacks.</p>
+     <p>I'm a problem solver specializing in the Javascript technologies.</p>
   header_text_feature_image: banner.jpg
   footer_text: >
     <p>&copy; CaseyBennington.com. 2016-2019 Powered by <a href="http://jekyllrb.com">Jekyll</a>.</p>
