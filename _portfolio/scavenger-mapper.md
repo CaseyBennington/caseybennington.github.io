@@ -8,7 +8,7 @@ hide: false
 ---
 
 {:.center}
-[![Demo]({{ site.baseurl }}/img/scavenger-mapper.png)](https:/caseybennington.github.io/Scavenger-Mapper)
+[![Demo]({{ site.baseurl }}/img/scavenger-mapper.png)](https://caseybennington.github.io/Scavenger-Mapper)
 
 ## Summary
 
