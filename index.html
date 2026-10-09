@@ -1,157 +1,135 @@
 ---
-layout: default
+layout: portfolio
+title: Senior Software Engineer
+description: "Senior software engineer in San Diego. Frontend, full-stack applications, and AI experiences, with a background in accounting and consulting."
 ---
 
-<!-- Banner -->
-  <section id="banner">
-    <div class="inner">
-      <h2>{{ site.theme-settings.title }}</h2>
-      <p>{{ site.theme-settings.description | markdownify }}</p>
+<section id="cb-home" class="cb-hero">
+  <div class="cb-grid" aria-hidden="true"></div>
+  <div class="cb-orbit" aria-hidden="true"><div></div></div>
+  <div class="cb-hero-content">
+    <p class="cb-kicker">CASEY BENNINGTON / SENIOR SOFTWARE ENGINEER</p>
+    <h1>Still creating<br /><span>cool stuff.</span></h1>
+    <p class="cb-intro">
+      A decade of building software. A few career plot twists.<br />A healthy
+      obsession with making things work better.
+    </p>
+    <div class="cb-links">
+      <a class="cb-action" href="#cb-work">Get into the work <span>↓</span></a
+      ><a class="cb-secondary" href="#cb-about">Who is this dude? ↗</a>
     </div>
-    <a href="#one" class="more scrolly">Continue</a>
-  </section>
-
-<!-- One -->
-  <section id="one" class="wrapper style1 special">
-    <div class="inner">
-      <header class="major">
-        <h2>Hello there!<br />
-        My name is Casey Bennington and I'm a full stack developer.<br />
-        I utilize web based technologies to solve your problems.<br />
-        </h2>
-        <p>Let me team with you to discover what would really make your business take off.<br />
-          I utilize my experiences to uniquely offer perspectives on how the web can elevate your business.</p>
-        <p>What can I help you with today?<br />
-        Below are some examples of what I've built using the following technologies:</p>
-      </header>
-      <ul class="icons major">
-        <li class="tooltip"><span class="icon major style1"><i class="devicon-react-plain"></i><span class="label tooltiptext">React</span></span></li>
-        <li class="tooltip"><span class="icon major style1"><i class="devicon-java-plain"></i><span class="label tooltiptext">Java</span></span></li>
-        <li class="tooltip"><span class="icon major style2"><i class="devicon-javascript-plain"></i><span class="label tooltiptext">JavaScript</span></span></li>
-        <li class="tooltip"><span class="icon major style1"><i class="devicon-bootstrap-plain"></i><span class="label tooltiptext">Bootstrap</span></span></li>
-        <li class="tooltip"><span class="icon major style2"><i class="devicon-ruby-plain"></i><span class="label tooltiptext">Ruby</span></span></li>
-        <li class="tooltip"><span class="icon major style3"><i class="devicon-rails-plain"></i><span class="label tooltiptext">Rails</span></span></li>
-        <li class="tooltip"><span class="icon major style1"><i class="devicon-angularjs-plain"></i><span class="label tooltiptext">Angular</span></span></li>
-        <li class="tooltip"><span class="icon major style2"><i class="devicon-html5-plain"></i><span class="label tooltiptext">HTML5</span></span></li>
-        <li class="tooltip"><span class="icon major style3"><i class="devicon-css3-plain"></i><span class="label tooltiptext">CSS3</span></span></li>
-      </ul>
+    <div class="cb-footnote">
+      <span>San Diego, CA</span><span>Frontend · Full stack · AI</span>
     </div>
-  </section>
-
-<!-- Two -->
-  <section id="two" class="wrapper alt style2">
-    <!-- <h2>Projects</h2> -->
-    {% for project in site.portfolio %}
-    {% if project.hide == true %}
-      {% continue %}
-    {% endif %}
-    <section class="spotlight">
-      <div class="image">
-        <a href="{{ project.url | prepend: site.baseurl }}">
-        <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
-        </a>
-      </div>
-      <div class="content">
-        <div class="project-description">
-          <a href="{{ project.url | prepend: site.baseurl }}"><h2>{{ project.title }}</h2></a>
-          <p>{{ project.short-description }}</p>
+  </div>
+  <div class="cb-margin-label" aria-hidden="true">CURIOUS BY DEFAULT.</div>
+</section>
+<section id="cb-work" class="cb-section">
+  <div class="cb-section-title">
+    <p class="cb-kicker">01 / THE WORK</p>
+    <h2>Serious engineering.<br />Actual humans.</h2>
+    <p>
+      My recent work has centered on internal AI experiences and employee tools
+      at HubSpot.
+    </p>
+  </div>
+  <div class="cb-work-list">
+    <details open>
+      <summary>
+        <span class="cb-index">01</span
+        ><span
+          ><small>AI EXPERIENCES</small
+          ><strong>Making AI part of the working day.</strong></span
+        ><span class="cb-plus">+</span>
+      </summary>
+      <div class="cb-detail">
+        <p>
+          Work on HubGPT spanned knowledge ingestion, Google Drive uploads,
+          assistant selection, and content refresh experiences. Connecting the
+          underlying systems to the experience people use.
+        </p>
+        <div class="cb-tags">
+          <span>AI tooling</span><span>Knowledge integration</span
+          ><span>Frontend experiences</span>
         </div>
       </div>
-    </section>
-    {% endfor %}
-  </section>
-
-  <!-- Three -->
-    <section id="three" class="wrapper style3 special">
-      <div class="inner">
-        <header class="major">
-          <h2>More of My Work</h2>
-          <a class="portfolio-link" href="portfolio.html"><p>Check out more of my projects here!</p></a>
-        </header>
+    </details>
+    <details>
+      <summary>
+        <span class="cb-index">02</span
+        ><span
+          ><small>INTERNAL PRODUCTS</small
+          ><strong>Less friction. Better tools.</strong></span
+        ><span class="cb-plus">+</span>
+      </summary>
+      <div class="cb-detail">
+        <p>
+          Contributions to access management and PeopleHub, bringing a frontend
+          focus to workflows employees depend on.
+        </p>
+        <div class="cb-tags">
+          <span>Access management</span><span>Employee experience</span>
+        </div>
       </div>
-    </section>
-
-<!-- Posts -->
-<section id="posts" class="wrapper style4">
-  <div class="inner">
-    <div class="posts">
-      <h2 class="post-header">My Posts</h2>
-      <ul>
-        {% for post in paginator.posts %}
-        <li class="post-teaser">
-          <header>
-            <h3>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-              </a>
-            </h3>
-            <p class="meta">
-              {{ post.date | date: "%B %-d, %Y" }}
-            </p>
-          </header>
-          <div class="excerpt">
-            {{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}
-          </div>
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            {{ site.theme-settings.str_continue_reading }}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  <!-- </div> -->
-  {% if paginator.total_pages > 1 %}
-  <div id="pagination" class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i>
-      {{ site.theme-settings.str_prev }}
-    </a>
-    {% endif %}
-
-    <a href="{{ site.baseurl }}/index.html" class="button">1</a>
-    {% for page in (2..paginator.total_pages) %}
-      <a href="{{ site.baseurl }}/blog/page{{ page }}" class="button">{{ page }}</a>
-    {% endfor %}
-
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme-settings.str_next }}
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
+    </details>
+    <details>
+      <summary>
+        <span class="cb-index">03</span
+        ><span
+          ><small>EARLY EXPERIMENTS</small
+          ><strong>Every engineer has an origin story.</strong></span
+        ><span class="cb-plus">+</span>
+      </summary>
+      <div class="cb-detail">
+        <p>
+          Scavenger hunts, social bookmarks, an Alexa skill, and yes, Pong.
+          Older projects from the beginning of my development career.
+        </p>
+        <a
+          href="{{ site.baseurl }}/portfolio.html"
+          target="_blank"
+          rel="noopener"
+          >Explore the original project archive ↗</a
+        >
+      </div>
+    </details>
   </div>
-  {% endif %}
-</div>
-
 </section>
-
-<!-- CTA -->
-  <section id="cta" class="wrapper style2">
-    <div class="inner">
-      <header>
-        <h3>Thanks for stopping by!</h3>
-        <p>I am <i>currently</i> available. Want to work with me? <i>Sweet.</i><br />
-        You can connect with me via this really awesome contact form or via email.
-        Or through one of my various social media accounts, if you are daring enough to go that route.<br />
-        And, if you are in San Diego, you could just try yelling really loudly...</p>
-      </header>
-      <ul class="actions vertical">
-        {% for page in site.pages %}
-          {% if page.title and page.hide != true %}
-          <li>
-            {% if page.title == 'Contact' %}
-              <a class="button fit special" href="{{ page.url | prepend: site.baseurl }}">
-                {{ page.title }}
-              </a>
-            {% else %}
-              <a class="button fit" href="{{ page.url | prepend: site.baseurl }}">
-                About
-              </a>
-            {% endif %}
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+<section id="cb-about" class="cb-about cb-section">
+  <div>
+    <p class="cb-kicker">02 / THE HUMAN</p>
+    <h2>CPA turned engineer.<br /><em>Plot twist.</em></h2>
+  </div>
+  <div class="cb-about-copy">
+    <p>
+      I started in accounting and consulting. Then I followed the childhood
+      interest that never really went away: building things with software.
+    </p>
+    <p>
+      That business background still comes with me. I care about what we're
+      solving, who we're solving it for, and how all the pieces fit together.
+    </p>
+    <p>Outside the editor? Soccer, games, and seeing more of the world.</p>
+    <div class="cb-personality">
+      <button type="button" data-interest="soccer" aria-pressed="true">
+        Soccer</button
+      ><button type="button" data-interest="gaming" aria-pressed="false">
+        Gaming</button
+      ><button type="button" data-interest="travel" aria-pressed="false">
+        Travel
+      </button>
     </div>
-  </section>
+    <p class="cb-interest" aria-live="polite">Off-screen, on the pitch.</p>
+  </div>
+</section>
+<section class="cb-contact">
+  <p class="cb-kicker">NEXT CHAPTER</p>
+  <h2>Let's build<br />something <em>worth using.</em></h2>
+  <a
+    class="cb-action"
+    href="https://www.linkedin.com/in/caseybennington/"
+    target="_blank"
+    rel="noopener"
+    >Start a conversation ↗</a
+  >
+</section>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      {{ page.title | escape }} | {{ site.theme-settings.title | escape }}
+    </title>
+    <meta name="description" content="{{ page.description | escape }}" />
+    <link
+      rel="canonical"
+      href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/css/portfolio.css' | prepend: site.baseurl }}"
+    />
+    <script
+      src="{{ '/js/portfolio.js' | prepend: site.baseurl }}"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div id="casey-after-dark">
+      {% include portfolio-header.html %}
+      <main>{{ content }}</main>
+      {% include portfolio-footer.html %}
+    </div>
+  </body>
+</html>
